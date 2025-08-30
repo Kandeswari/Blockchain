@@ -1,0 +1,154 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "SLStudent",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "sname",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sage",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sbranch",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "smark",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "key",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_sbranch",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_sage",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_smark",
+						"type": "string"
+					}
+				],
+				"name": "addStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "key",
+						"type": "uint256"
+					}
+				],
+				"name": "getstusent",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "sname",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "sage",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "sbranch",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "smark",
+								"type": "string"
+							}
+						],
+						"internalType": "struct student.Student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Student.sol": "student"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Student.sol": {
+			"keccak256": "0x5316bc74ff92d14ae55d5fab2728955eb8c5fc3cdeecc3ab996f125ab2659e86",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4c6e316dd321d013dae79f51834a12e9fb108274a79242614e3da5ea521a7050",
+				"dweb:/ipfs/QmdYNV79vHkq2wqafBJ8AxcNNjqEqdFPKkYpSM6WY8Xv7R"
+			]
+		}
+	},
+	"version": 1
+}
