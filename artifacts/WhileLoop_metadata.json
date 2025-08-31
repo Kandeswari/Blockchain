@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_sum",
+						"type": "uint256"
+					}
+				],
+				"name": "additionNum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"numsum.sol": "WhileLoop"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"numsum.sol": {
+			"keccak256": "0xe5bd2ec14e405d3624cff48d92383198be46175dbee778f775fe4e4357a5f68f",
+			"urls": [
+				"bzz-raw://1a22612f90a916a5e5c374c348e1e9e76535ea3e2f20a8f84d03d2c9ddd00cbf",
+				"dweb:/ipfs/QmXMkok45E3wZJhYTGP3Jm26D3AKLQbGHXGgnZYTbKZFTV"
+			]
+		}
+	},
+	"version": 1
+}

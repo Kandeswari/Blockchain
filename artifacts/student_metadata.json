@@ -9,31 +9,21 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_index",
 						"type": "uint256"
 					}
 				],
-				"name": "SLStudent",
+				"name": "getstudentdetails",
 				"outputs": [
 					{
 						"internalType": "string",
-						"name": "sname",
+						"name": "",
 						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "sage",
+						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "sbranch",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "smark",
-						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -41,11 +31,6 @@
 			},
 			{
 				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "key",
-						"type": "uint256"
-					},
 					{
 						"internalType": "string",
 						"name": "_name",
@@ -53,64 +38,13 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "_sbranch",
+						"name": "_age",
 						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_sage",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_smark",
-						"type": "string"
 					}
 				],
-				"name": "addStudent",
+				"name": "setstudentdetails",
 				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "key",
-						"type": "uint256"
-					}
-				],
-				"name": "getstusent",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "sname",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "sage",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "sbranch",
-								"type": "uint256"
-							},
-							{
-								"internalType": "string",
-								"name": "smark",
-								"type": "string"
-							}
-						],
-						"internalType": "struct student.Student",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -127,7 +61,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Student.sol": "student"
+			"studentsArray.sol": "student"
 		},
 		"evmVersion": "prague",
 		"libraries": {},
@@ -141,12 +75,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Student.sol": {
-			"keccak256": "0x5316bc74ff92d14ae55d5fab2728955eb8c5fc3cdeecc3ab996f125ab2659e86",
+		"studentsArray.sol": {
+			"keccak256": "0x8f946dbf4b2523adbf0b470fd6e9fcc1096fd39bd5888e1d7e22bb8789d73d80",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4c6e316dd321d013dae79f51834a12e9fb108274a79242614e3da5ea521a7050",
-				"dweb:/ipfs/QmdYNV79vHkq2wqafBJ8AxcNNjqEqdFPKkYpSM6WY8Xv7R"
+				"bzz-raw://c54f20de0adc57b69d46594c5b870cdc1f87c68dbfb47a56a91f6165c97c3447",
+				"dweb:/ipfs/QmeK3qkFc5AxiTss9XsxMbJsCxzCugVyTAFmUs8vBSEi6D"
 			]
 		}
 	},
